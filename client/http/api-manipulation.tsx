@@ -21,7 +21,6 @@ export const dataHand = async (data, url) => {
   }
 }
 
-//
 
 // Есть запросы которые супер-юзер должен отправлять без company_id этот конфиг как раз для таких кейсов
 const $apiNC = axios.create({
