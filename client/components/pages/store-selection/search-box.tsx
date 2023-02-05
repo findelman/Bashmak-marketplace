@@ -200,22 +200,22 @@ export const SearchBox = () => {
   }, [])
 
   // Обновляем данные поиска
-  useEffect(() => {
-    if (searchValue.trim() !== "") {
-      $apiNC
-        .get(`company/list?search=${searchValue}`)
-        .then((resp) => {
-          console.log(resp)
-          SetSearchData(resp.data.companies)})
-        .catch((err) => {
-          console.log(err)
-          SetSearchData(false)})
-    } else {
-      $apiNC.get("company/list").then((resp: any) => {
-        SetSearchData(resp.data.companies)
-      })
-    }
-  }, [searchValue])
+  // useEffect(() => {
+  //   if (searchValue.trim() !== "") {
+  //     $apiNC
+  //       .get(`company/list?search=${searchValue}`)
+  //       .then((resp) => {
+  //         console.log(resp)
+  //         SetSearchData(resp.data.companies)})
+  //       .catch((err) => {
+  //         console.log(err)
+  //         SetSearchData(false)})
+  //   } else {
+  //     $apiNC.get("company/list").then((resp: any) => {
+  //       SetSearchData(resp.data.companies)
+  //     })
+  //   }
+  // }, [searchValue])
 
   // useEffect(() => {
   //   $api.get("city/list").then((resp: any) => {
@@ -224,12 +224,12 @@ export const SearchBox = () => {
   // }, [])
 
   useEffect(() => {
-    $apiNC.get("company/list").then((resp) => {
-      SetSearchData(resp.data.companies)
-      console.log(resp.data.companies, "NEWW")
-    })
+    // $apiNC.get("company/list").then((resp) => {
+    //   SetSearchData(resp.data.companies)
+    //   console.log(resp.data.companies, "NEWW")
+    // })
     
-    axios.get('companies').then(resp => console.log(resp,'ALLOO '))
+   axios.get('https://bashmak-server.vercel.app/companies').then(resp => console.log(resp,'ALLOO ')).catch(err => console.log(err,'BLYAA'))
 
   }, [])
 
