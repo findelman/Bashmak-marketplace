@@ -6,6 +6,7 @@ import { useEffect, useState } from "react"
 import $api, { $apiNC } from "../../../http/api-manipulation"
 import { useTranslations } from "next-intl"
 import Link from "next/link"
+import axios from "axios"
 
 const SearchBoxS = styled.div`
   background: #ffffff;
@@ -227,11 +228,11 @@ export const SearchBox = () => {
       SetSearchData(resp.data.companies)
       console.log(resp.data.companies, "NEWW")
     })
+    
+    axios.get('companies').then(resp => console.log(resp,'ALLOO '))
+
   }, [])
 
-  useEffect(() => {
-    // console.log(searchData)
-  }, [searchData])
 
   return (
     <SearchBoxS>

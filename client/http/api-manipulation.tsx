@@ -1,6 +1,6 @@
 import axios from "axios"
 
-export const API_URL = "https://dev-api.ic-market.org/flowers/api/v1.0/"
+export const API_URL = "https://bashmak-server.vercel.app/"
 
 const $api = axios.create({
   baseURL: API_URL,
