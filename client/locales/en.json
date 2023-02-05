@@ -1,0 +1,195 @@
+{
+  "Langs": {
+    "RU": "Russian",
+    "KZ": "Kazakh",
+    "EN": "English"
+  },
+  "Main": {
+    "LogIn": "Control panel login",
+    "ResetAcc": "Account recovery",
+    "ResetPass": "We have reset your password",
+    "EmailSend": "A letter has been sent to your mail. Follow the link in the email.",
+    "Btn1": "To come in",
+    "Btn2": "Reset the password",
+    "Btn3": "Back to the entrance",
+    "Footer1": "Forgot your password?",
+    "Footer2": "Back to the entrance",
+    "Text1": "Login",
+    "Text2": "Password",
+    "Text3": "Mail",
+    "Error1": "Wrong login or password",
+    "Error2": "The specified mail does not exist",
+    "Login1": "Login",
+    "Shop": "Flower shop"
+  },
+  "SelectCity": {
+    "Title": "orders in",
+    "SubTitle": "cities"
+  },
+  "Orders": {
+    "Title": "Orders",
+    "Tab1": "Active",
+    "Tab2": "Completed",
+    "ExportBtn": "Export to Excel",
+    "For": "For "
+  },
+  "Table": {
+    "HeaderText1": "Created",
+    "HeaderText2": "Delivery date",
+    "HeaderText3": "Completed",
+    "HeaderText4": "Delivery address",
+    "HeaderText5": "Sum",
+    "HeaderText6": "Status",
+    "HeaderText7": "Grade",
+    "HeaderText8": "Total amount",
+    "Status1": "All statuses",
+    "Status2": "Paid",
+    "Status3": "Assembled",
+    "Status4": "Delivered",
+    "Btn1": "Paid",
+    "Btn2": "Assembled",
+    "Btn3": "Delivered",
+    "ClickBtn1": "Accept",
+    "ClickBtn2": "For delivery",
+    "ClickBtn3": "Complete",
+    "ChatClinet": "Chat with a client",
+    "Progress1": "Paid",
+    "Progres2": "Collected",
+    "Progres3": "Delivered"
+  },
+  "Products": {
+    "HeaderTab1": "Goods",
+    "HeaderTab2": "Options",
+    "Tab1": "Active",
+    "Tab2": "Hidden",
+    "BtnAdd1": "Add item",
+    "BtnAdd2": "Add option",
+    "PopUpText1": "Are you sure you want to delete the item?",
+    "PopUpText2": "Are you sure you want to remove the option?",
+    "ProductBtn1": "Edit",
+    "ProductBtn2": "Remove from sale",
+    "ProductBtn3": "Return to sales"
+  },
+  "ProductPopUp": {
+    "Title": "Product creation",
+    "Title2": "Edit product",
+    "Lang1": "Russian",
+    "Lang2": "English",
+    "Input1": "Price",
+    "Input2": "Name",
+    "Input3": "Description",
+    "ValidateMessage": "Fill in all the fields",
+    "SaveBtn": "Save",
+    "AddPhoto": "Add photo",
+    "ChangePhoto": "Change photo",
+    "RedPhoto": "Create option",
+    "RedPhoto1": "Edit option"
+  },
+  "Analytics": {
+    "Title": "Analytics",
+    "Text1": "Revenue from completed orders",
+    "Text2": "the last week",
+    "Text3": "Total"
+  },
+  "Employees": {
+    "Title": "Staff",
+    "Text1": "Add employee",
+    "Text2": "Name",
+    "Text3": "Job title",
+    "Text4": "Mail",
+    "Text5": "Are you sure you want to delete an employee?",
+    "Text6": "Addendum",
+    "Text7": "employee",
+    "Text8": "Send invitation",
+    "Text9": "Administrator",
+    "Text10": "Manager",
+    "Text11": "Supervisor",
+    "Role": "Role"
+  },
+  "Navigation": {
+    "Text1": "Orders",
+    "Text2": "Analytics",
+    "Text3": "Products and options",
+    "Text4": "Staff",
+    "Text5": "Settings",
+    "Text6": "Name of shop",
+    "Text7": "Petal",
+    "Text8": "Login",
+    "Text9": "Change language",
+    "Text10": "Exit"
+  },
+  "Header": {
+    "ChangeLang": "Language change",
+    "Checkout": "Order",
+    "Basket": "Shopping Cart",
+    "Shop": "Flower shop"
+  },
+  "Basket": {
+    "Adress": "Address",
+    "Checkout": "Order",
+    "DateInput": "Date delivery",
+    "TimeInput": "Approximate time",
+    "Email": "Mail",
+    "Phone1": "Recipient",
+    "Phone2": "Sender's phone",
+    "CommentInput": "Comments",
+    "Delivery": "Delivery",
+    "Commission": "Commission",
+    "Products": "Goods",
+    "Total": "All",
+    "PayProduct": "Order payment"
+  },
+  "BasketRight": {
+    "Basket": "Shopping cart",
+    "OrderMore": "Order more",
+    "AddMore": "Add to bouquet",
+    "InBasket": "In basket",
+    "ProductAmount": "goods for the amount",
+    "Checkout": "Order",
+    "Add": "Add"
+  },
+  "Bag": {
+    "TotalSum": "Total amount:",
+    "BayProduct": "purchased goods",
+    "Unit": "pcs",
+    "Product": "goods",
+    "Wrap": "Collapse",
+    "UnWrap": "Expand",
+    "Phone1:": "Sender",
+    "Phone2": "Recipient"
+  },
+  "Wrap": {
+    "Wrap": "Hide",
+    "UnWrap": "Open"
+  },
+  "PopUp": {
+    "Delete": "Delete",
+    "Cancel": "Cancel"
+  },
+  "Input": {
+    "Search": "Find in search",
+    "SelectCity": "Choose city",
+    "Error": "This city was not found"
+  },
+  "MobileInput": {
+    "Checkout": "Checkout",
+    "Delivery": "Delivery",
+    "PaymentMethod": "Select a Payment Method",
+    "Data": "Data",
+    "WhereDelivery": "Where to deliver?",
+    "DateDelivery": "Delivery date",
+    "TimeDelivery": "Time of delivery",
+    "PhoneSender": "Жіберушінің телефоны",
+    "PhoneRecep": "Recipient's phone",
+    "Email": "Mail",
+    "Comment": "A comment",
+    "BankCard": "Bank card",
+    "GoPay": "Go to the payment",
+    "Pay": "Pay"
+  },
+  "Chat": {
+    "Title": "Consultant",
+    "Order": "Order",
+    "Send": "Write to chat"
+  }
+}

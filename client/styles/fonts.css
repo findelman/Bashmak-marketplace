@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Lato";
+  src: url("./fonts/Lato-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+    font-family: "ProximaNova";
+    src: url("./fonts/ProximaNova-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+  }
+  
+
+* {
+  font-family: "Lato", sans-serif;
+}
