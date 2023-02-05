@@ -1,8 +1,7 @@
-import { Schema, model } from 'mongoose';
+import * as mongoose from 'mongoose';
 
-const bookSchema = new Schema({
-  title: { type: String, required: true },
-  author: { type: String, required: true },
+export const BookSchema = new mongoose.Schema({
+  title: String,
+  author: String,
+  description: String,
 });
-
-export const Book = model('Book', bookSchema);

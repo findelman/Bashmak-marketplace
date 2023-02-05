@@ -1,15 +1,17 @@
 import { Controller, Post, Body, Get } from '@nestjs/common';
-import { Book } from './book.schema';
+import { BookService } from './book.service';
 
 @Controller('books')
 export class BookController {
+  constructor(private bookService: BookService) {}
+
   @Post()
   async create(@Body() book: any) {
-    return await new Book(book).save();
+    return this.bookService.create(book);
   }
 
   @Get()
-  async findAll(): Promise<any[]> {
-    return await Book.find().exec();
+  async findAll() {
+    return this.bookService.findAll();
   }
 }
