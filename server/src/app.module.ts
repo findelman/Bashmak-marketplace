@@ -2,7 +2,6 @@ import { Module } from '@nestjs/common';
 import { MongooseModule } from '@nestjs/mongoose';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-import { BookModule } from './books/book.module';
 
 @Module({
   imports: [
@@ -13,7 +12,6 @@ import { BookModule } from './books/book.module';
         useUnifiedTopology: true,
       },
     ),
-    BookModule
   ],
   controllers: [AppController],
   providers: [AppService],
