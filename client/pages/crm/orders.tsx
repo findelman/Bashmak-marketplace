@@ -154,7 +154,7 @@ export default function Orders() {
   return (
     <>
       <Head>
-        <title>{t("Title")} | Flower app</title>
+        <title>{t("Title")} | Bashmak shop</title>
       </Head>
       <Content>
         <h1>{t("Title")} </h1>

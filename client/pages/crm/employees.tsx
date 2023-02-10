@@ -98,7 +98,7 @@ export default function Employees() {
   return (
     <>
       <Head>
-        <title>{t("Title")} | Flower app</title>
+        <title>{t("Title")} | Bashmak shop</title>
       </Head>
       <Wrapper>
         <Header>

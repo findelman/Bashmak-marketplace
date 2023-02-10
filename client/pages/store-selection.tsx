@@ -63,7 +63,7 @@ export default function StoreSelection() {
   return (
     <>
       <Head>
-        <title>Выбор магазина | Flower app</title>
+        <title>Выбор магазина | Bashmak shop</title>
       </Head>
       <Wrapper>
         <RectangleBg></RectangleBg>

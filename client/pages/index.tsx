@@ -129,7 +129,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Добро пожаловать | Flower app</title>
+        <title>Добро пожаловать | Bashmak shop</title>
       </Head>
 
       <Wrapper>

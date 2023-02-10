@@ -107,7 +107,7 @@ export default function Products() {
   return (
     <>
       <Head>
-        <title>Мои Товары | Flower app</title>
+        <title>Мои Товары | Bashmak shop</title>
       </Head>
       <Wrapper>
         <MobilePadding>
