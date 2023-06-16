@@ -17,9 +17,8 @@ export const GlogalStyle = createGlobalStyle`
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; */
   outline: none;
   border: unset;
-
-
 }
+
 a {
   color: white;
 }

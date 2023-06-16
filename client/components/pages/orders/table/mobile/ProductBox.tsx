@@ -3,7 +3,7 @@ import Image from "next/image"
 import { useState } from "react"
 import styled from "styled-components"
 import { productActiveApi } from "../../../../../fakeapi/api"
-import { JC_SB, media, SumFormat } from "../../../../../styles/style-variables"
+import { JC_SB, media } from "../../../../../styles/style-variables"
 import { ArrowSvg } from "../../../../all-svg"
 
 import { BagItem } from "../BagPopUp"
@@ -34,7 +34,7 @@ const ShowMore = styled.button<{ isActive?: boolean }>`
   }
 `
 
-export const ProductBox = ({ data, isMobile }) => {
+export const ProductBox = ({ data }) => {
   const t = useTranslations("Bag")
   const [count, setCount] = useState(2)
   const [toggleAccardion, setAccardion] = useState(true)

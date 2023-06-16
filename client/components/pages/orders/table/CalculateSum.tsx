@@ -1,6 +1,4 @@
-import { renderHook } from "@testing-library/react-hooks"
 import { useState, useEffect } from "react"
-import { SumFormat } from "../../../../styles/style-variables"
 
 export function CalculateSum(array: any) {
   let [sum, SetSum] = useState(0)

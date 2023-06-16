@@ -2,7 +2,7 @@ import { useTranslations } from "next-intl"
 import Image from "next/image"
 import React from "react"
 import styled from "styled-components"
-import { JC_SB, media, SumFormat } from "../../../../styles/style-variables"
+import { JC_SB, media } from "../../../../styles/style-variables"
 import { FormatSum } from "../../../common/utils/FormatSum"
 
 import defaultImg from "../ProductBoxImg.png"
@@ -67,13 +67,14 @@ const Item = styled(JC_SB)`
 `
 
 export const BagItem = ({ data }) => {
-  const t = useTranslations("Bag");
+  const t = useTranslations("Bag")
   return (
     <Item>
       <div>
         <Text>{data.title}</Text>
         <small>
-          {FormatSum(data.price)} ₸ / {data.quantity}{t('Unit')}
+          {FormatSum(data.price)} ₸ / {data.quantity}
+          {t("Unit")}
         </small>
       </div>
       <Image alt="" src={defaultImg} />
@@ -82,7 +83,7 @@ export const BagItem = ({ data }) => {
 }
 
 export const BagPopUp = React.memo(function BagPopUp({ data }: any) {
-  const t = useTranslations("Bag");
+  const t = useTranslations("Bag")
   const totalSum = CalculateSum(data)
 
   return (
@@ -90,8 +91,12 @@ export const BagPopUp = React.memo(function BagPopUp({ data }: any) {
       {data && (
         <>
           <Header>
-            <h2>{data.length} {t('BayProduct')}</h2>
-            <Text>{t('TotalSum')} {totalSum} ₸</Text>
+            <h2>
+              {data.length} {t("BayProduct")}
+            </h2>
+            <Text>
+              {t("TotalSum")} {totalSum} ₸
+            </Text>
           </Header>
           <ItemsList>
             {data.map((item, key) => {

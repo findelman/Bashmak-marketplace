@@ -1,26 +1,26 @@
-import styled from "styled-components";
+import styled from "styled-components"
 
 export const FlexCenter = styled.div`
   display: flex;
   align-items: center;
-`;
-export const JC_SB = styled.div`
+`
+export const JC_SB = styled(FlexCenter)`
   display: flex;
   justify-content: space-between;
   align-items: center;
-`;
+`
 
-export const FlexOnlyCenter = styled.div`
+export const FlexOnlyCenter = styled(FlexCenter)`
   display: flex;
   justify-content: center;
   align-items: center;
-`;
+`
 
 export const media = {
   mobile: `@media screen and (max-width: 890px)`,
   // Не применяем :hover на мобилках ↓
   notMobile: `@media screen and (min-width: 890px)`,
-};
+}
 
 export const CustomScroll = styled.div`
   ::-webkit-scrollbar {
@@ -33,7 +33,7 @@ export const CustomScroll = styled.div`
     border-radius: 2px;
     background-color: #c4c8c8;
   }
-`;
+`
 
 // Точечное импортирование через ${CustomScrollText} когда у блока не объявлен styled.div``
 export const CustomScrollText = `
@@ -47,8 +47,4 @@ export const CustomScrollText = `
     border-radius: 2px;
     background-color: #c4c8c8;
   }
-`;
-
-// Форматируем сумму
-export const SumFormat = /(\d)(?=(\d{3})+(?!\d))/g
-
+`
